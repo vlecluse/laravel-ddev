@@ -1,7 +1,7 @@
 setup:
 	ddev start
 	ddev composer install -v
-	ddev key:generate
-	ddev migrate
+	ddev artisan key:generate
+	ddev artisan migrate
 status:
 	ddev status
